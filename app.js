@@ -48,3 +48,9 @@ app.post('/', async (req, res) => {
         }
     });
 });
+
+// GET /ping endpoint to check if the server is running
+app.get('/ping', (req, res) => {
+    res.send('Pong!');
+});
+
