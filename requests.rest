@@ -1,0 +1,8 @@
+POST http://localhost:44044/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "to": "220230@astanait.edu.kz",
+    "subject": "Nodemailer Project",
+    "text": "Hi from your nodemailer project"
+}
